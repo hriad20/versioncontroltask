@@ -20,7 +20,7 @@ public class LuckySeven {
             number3 = rand.nextInt(10)+1;
             System.out.println("Your balance is: " + balance + " how much you wish to play with: ");
             choiceValue = scan.nextInt();
-
+            // this will check and run the code according to the player choice
             switch (choiceValue) {
                 case 1:
                 balance = balance - 1;
@@ -66,6 +66,8 @@ public class LuckySeven {
             }
 
         }
+        
+        scan.close();
 
         System.out.println("Game over, unfortunately you lost all your money!");
         
