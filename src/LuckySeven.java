@@ -12,6 +12,8 @@ public class LuckySeven {
         int number3;
         int balance = 5;
         int choiceValue;
+
+        //Making the while loop and this is containing the actual program of the lucky 7
         while (balance > 0) {
             number1 = rand.nextInt(10)+1;
             number2 = rand.nextInt(10)+1;
