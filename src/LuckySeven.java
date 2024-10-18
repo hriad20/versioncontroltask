@@ -6,7 +6,7 @@ public class LuckySeven {
         //Initiate the methods
         Random rand = new Random();
         Scanner scan = new Scanner(System.in);       
-
+        //initilized the variables
         int number1;
         int number2;
         int number3;
